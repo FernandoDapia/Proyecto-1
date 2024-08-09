@@ -1,3 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 * {
-  background-color: rgb(0, 4, 255);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  
+  overflow-x: hidden;
+}
+
+
+:root {
+  /* COLORS */
+  --fdr-color-000: #ffffff;
+  --fdr-color-100: #D9D9D9;
+  --fdr-color-200: #999999;
+  --fdr-color-300: #404243;
+  --fdr-color-400: #e84f21;
+  --fdr-color-500: #000000;
+
+  /* COLOR BUTTONS */
+  --fdr-color-button-1: #28887a;
+
+  /* SPACING */
+  --fdr-margin-xs: 10px;
+  --fdr-margin-s: 20px;
+  --fdr-margin-m: 30px;
+  --fdr-margin-l: 40px;
+  --fdr-margin-xl: 50px;
+  --fdr-margin-xxl: 60px;
+
+  --fdr-padding-xs: 10px;
+  --fdr-padding-s: 20px;
+  --fdr-padding-m: 30px;
+  --fdr-padding-l: 40px;
+  --fdr-padding-xl: 50px;
+  --fdr-padding-xxl: 80px;
+
+  --fdr-gap-xs: 10px;
+  --fdr-gap-s: 20px;
+  --fdr-gap-m: 30px;
+  --fdr-gap-l: 40px;
+  --fdr-gap-xl: 50px;
+  --fdr-gap-xxl: 60px;
+
+  /* BORDER RADIUS */
+  --fdr-border-radius-primary: 100%;
+  --fdr-border-radius-secondary: 5px;
 }
