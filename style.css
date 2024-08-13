@@ -1,6 +1,8 @@
+/** @format */
 
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abhaya+Libre:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
   margin: 0;
@@ -13,46 +15,177 @@ html {
 }
 
 body {
-  
   overflow-x: hidden;
+  height:300svh;
 }
 
-
 :root {
+  /* FONTS */
+  --rtc-primary-font: 'Abhaya Libre', serif;
+
   /* COLORS */
   --fdr-color-000: #ffffff;
-  --fdr-color-100: #D9D9D9;
+  --fdr-color-100: #d9d9d9;
   --fdr-color-200: #999999;
   --fdr-color-300: #404243;
   --fdr-color-400: #e84f21;
   --fdr-color-500: #000000;
+  --fdr-color-600: #eeeeee;
 
   /* COLOR BUTTONS */
-  --fdr-color-button-1: #28887a;
+  /* --fdr-color-button-1: */
 
   /* SPACING */
-  --fdr-margin-xs: 10px;
-  --fdr-margin-s: 20px;
-  --fdr-margin-m: 30px;
-  --fdr-margin-l: 40px;
-  --fdr-margin-xl: 50px;
-  --fdr-margin-xxl: 60px;
 
-  --fdr-padding-xs: 10px;
-  --fdr-padding-s: 20px;
-  --fdr-padding-m: 30px;
-  --fdr-padding-l: 40px;
-  --fdr-padding-xl: 50px;
-  --fdr-padding-xxl: 80px;
+  --fdr-margin-xs: 5px;
+  --fdr-margin-s: 10px;
+  --fdr-margin-m: 20px;
+  --fdr-margin-l: 30px;
+  --fdr-margin-xl: 40px;
+  --fdr-margin-xxl: 50px;
 
-  --fdr-gap-xs: 10px;
-  --fdr-gap-s: 20px;
-  --fdr-gap-m: 30px;
-  --fdr-gap-l: 40px;
-  --fdr-gap-xl: 50px;
-  --fdr-gap-xxl: 60px;
+  --fdr-padding-xs: 5px;
+  --fdr-padding-s: 10px;
+  --fdr-padding-m: 20px;
+  --fdr-padding-l: 30px;
+  --fdr-padding-xl: 40px;
+  --fdr-padding-xxl: 50px;
+
+  --fdr-gap-xs: 5px;
+  --fdr-gap-s: 10px;
+  --fdr-gap-m: 20px;
+  --fdr-gap-l: 30px;
+  --fdr-gap-xl: 40px;
+  --fdr-gap-xxl: 50px;
 
   /* BORDER RADIUS */
   --fdr-border-radius-primary: 100%;
   --fdr-border-radius-secondary: 5px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#header {
+  background-color: var(--fdr-color-600);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 99;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.menu-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--fdr-gap-xl);
+}
+
+.menu-logo > img {
+  width: 35px;
+  padding-bottom: 5px;
+}
+nav {
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+ul {
+  gap: 30px;
+}
+.menu > ul > li > a {
+  display: flex;
+  color: var(--fdr-color-500);
+}
+.usuario {
+  gap: var(--fdr-gap-l);
+  height: 40px;
+}
+.usuario > a > img {
+  width: 30px;
+}
+.usuario > a {
+  display: flex;
+  align-items: center;
+}
+.usuario > a:last-child {
+  display: none;
+}
+
+.usuario > a:last-child > img {
+  width: 25px;
+}
+
+.hero-img {
+  display: flex;
+  background-image: url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1723387128/Proyecto-1-rtc/imghero_ktz922.jpg);
+  height: 70svh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  
+}
+#hero > div {
+  display: flex;
+  flex-direction: column;
+  margin: var(--fdr-margin-l) var(--fdr-margin-xl); 
+}
+#hero > div > h1 {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: var(--fdr-color-000);
+   margin:0;
+}
+
+#hero > div > p {
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: var(--fdr-color-000);
+}
+
+@media (max-width: 1060px) {
+}
+
+@media (max-width: 730px) {
+  .usuario {
+    flex-wrap: nowrap;
+  }
+  .menu {
+    display: none;
+  }
+  .usuario > a:last-child {
+    display: contents;
+  }
+  .hero-img {
+    display: flex;
+    background-image: url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1723387128/Proyecto-1-rtc/imghero_ktz922.jpg);
+    height: 30svh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+  }
 }
