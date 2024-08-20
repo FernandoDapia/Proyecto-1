@@ -16,7 +16,7 @@ html {
 
 body {
   overflow-x: hidden;
-  height:300svh;
+  height: 300svh;
 }
 
 :root {
@@ -84,7 +84,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 70px;
+  height: 10svh;
   z-index: 99;
   justify-content: space-between;
   padding: 0px 50px;
@@ -140,14 +140,13 @@ ul {
   height: 70svh;
   width: 100%;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
-  
 }
 #hero > div {
   display: flex;
   flex-direction: column;
-  margin: var(--fdr-margin-l) var(--fdr-margin-xl); 
+  margin: var(--fdr-margin-l) var(--fdr-margin-xl);
 }
 #hero > div > h1 {
   font-family: 'Abhaya Libre', serif;
@@ -155,7 +154,7 @@ ul {
   font-style: normal;
   font-size: 60px;
   color: var(--fdr-color-000);
-   margin:0;
+  margin: 0;
 }
 
 #hero > div > p {
@@ -178,14 +177,38 @@ ul {
   .usuario > a:last-child {
     display: contents;
   }
+
+  #header {
+    height: 7svh;
+  }
   .hero-img {
     display: flex;
     background-image: url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1723387128/Proyecto-1-rtc/imghero_ktz922.jpg);
-    height: 30svh;
+    height: 225px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size:cover;
     background-position: center;
-    
+    background-size: cover;
+  }
+  #hero > div {
+    display: flex;
+    flex-direction: column;
+    margin: var(--fdr-margin-m) var(--fdr-margin-m);
+    justify-content: end;
+  }
+  #hero > div > h1 {
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: var(--fdr-color-000);
+    margin: 0;
+  }
+
+  #hero > div > p {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+    color: var(--fdr-color-000);
   }
 }
