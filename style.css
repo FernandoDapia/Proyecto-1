@@ -164,8 +164,6 @@ ul {
   color: var(--fdr-color-000);
 }
 
-.electric {
-}
 #cars {
   display: grid;
   margin: 30px auto;
@@ -178,8 +176,6 @@ ul {
   align-items: center;
   align-content: center;
   text-align: center;
-
-  
 }
 
 .electric {
@@ -214,7 +210,6 @@ ul {
   font-family: 'ABeeZee', sans-serif;
   font-weight: 400;
   font-style: normal;
-  
 }
 
 .name-e450 > p {
@@ -244,7 +239,8 @@ ul {
 
 .info-color > img {
   width: 35%;
-}
+} 
+
 .info-color > button {
   width: 20%;
   min-width: 66px;
@@ -255,7 +251,6 @@ ul {
 }
 
 .info-color > button > a {
-  
   color:var(--fdr-color-500);
   font-family: 'ABeeZee', sans-serif;
   font-weight: 400;
@@ -420,10 +415,90 @@ ul {
   width: 80%;
 }
 
+#discover {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width:855px;
+  margin-bottom: var(--fdr-margin-m);
+  
+}
+
+.find > h4 {
+  font-size: 60px;
+  font-weight: 100;
+  width: 550px;
+}
+
+.find > p {
+ width: 300px;
+ font-family: 'ABeeZee', sans-serif;
+ font-size: 15px;
+}
+
+.partner {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  width:855px;
+  height: 500px;
+  background-image:url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1724401604/2613ab8f946847e657b32f3f2e82ef54_emlglg.png);
+  background-position-y: -200px;
+  background-position-x: -200px;
+}
+
+.partner > div {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width:320px;
+  height: 200px;
+  margin-left:var(--fdr-margin-xl);
+  background-color: rgba(255, 255, 255, 0.37);
+  border-radius: 10px;
+  gap: var(--fdr-gap-s);
+}
+
+.partner > div > h4 {
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 100;
+  color: var(--fdr-color-000);
+  font-size: 35px; 
+  text-align: start;
+  margin-left: var(--fdr-margin-m);
+}
+
+.partner > div > button {
+  width: 220px;
+  color:var(--fdr-color-500);
+  border: none;
+  border-radius: 25px;
+  padding:10px 10px;
+  margin-left:var(--fdr-margin-m);
+}
+
+.partner > div > button > a {
+  font-size: 10px;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 100;
+  color:var(--fdr-color-500);
+  border: none;
+  border-radius: 25px;
+  padding:10px 10px;
+}
+
+
 @media (max-width:1288px) {
   #cars {
     width:90%;
-    
   }
 }
 
@@ -451,8 +526,6 @@ ul {
     align-items: center;
     align-content: center;
     text-align: center;
-  
-    
   }
   .hybrid {
     display: grid;
@@ -516,6 +589,10 @@ ul {
 
   .info-color > button {
     width:80px;
+  }
+
+  .find {
+    width:320px;
   }
 
 
