@@ -737,7 +737,7 @@ ul {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 400px;
+    width: 300px;
     margin-bottom: var(--fdr-margin-m);
     
   }
@@ -745,7 +745,8 @@ ul {
   .find > h4 {
     font-size: 40px;
     font-weight: 100;
-    width: 400px;
+    width: 100%;
+    margin:auto;
   }
   
   .find > p {
@@ -758,7 +759,7 @@ ul {
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    width:400px;
+    width:300px;
     height: 260px;
     background-image:url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1724401604/2613ab8f946847e657b32f3f2e82ef54_emlglg.png);
     background-position-y: -200px;
@@ -766,17 +767,10 @@ ul {
   }
   
   .partner > div {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: center;
-    width:320px;
+    width:280px;
     height: 200px;
-    margin-left:var(--fdr-margin-xl);
-    background-color: rgba(255, 255, 255, 0.37);
-    border-radius: 10px;
-    gap: var(--fdr-gap-s);
+    margin-left:0;
+    margin:auto;
   }
   
   .partner > div > h4 {
