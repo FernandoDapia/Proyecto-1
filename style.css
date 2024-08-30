@@ -486,6 +486,17 @@ ul {
   background-color: var(--fdr-color-000);
 }
 
+#tentation > div {
+  background-image:url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1725005973/mercedes_cfsmuo.png) ;
+  background-position-x: -80px;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  height:500px;
+  width: 855px;
+  margin:auto;
+  margin-top:var(--fdr-margin-l)
+}
+
 
 @media (max-width:1288px) {
   #cars {
@@ -759,7 +770,7 @@ ul {
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    width:300px;
+    width:320px;
     height: 260px;
     background-image:url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1724401604/2613ab8f946847e657b32f3f2e82ef54_emlglg.png);
     background-position-y: -200px;
