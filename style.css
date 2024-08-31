@@ -1023,7 +1023,7 @@ footer ul {
     color:var(--fdr-color-500);
     border: none;
     border-radius: 25px;
-    padding:10px 10px;
+    padding:10px 30px;
     background-color: var(--fdr-color-000);
   }
 
