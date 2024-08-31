@@ -486,16 +486,45 @@ ul {
   background-color: var(--fdr-color-000);
 }
 
-#tentation > div {
+.red-tentation {
   background-image:url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1725005973/mercedes_cfsmuo.png) ;
   background-position-x: -80px;
-  background-size: 120%;
-  background-repeat: no-repeat;
+  background-size:cover;
   height:500px;
-  width: 855px;
+  max-width: 855px;
   margin:auto;
-  margin-top:var(--fdr-margin-l)
+  margin-top:var(--fdr-margin-l);
+  margin-bottom:var(--fdr-margin-l);
+ position: relative
+
 }
+.red-tentation > div {
+  display:flex;
+  flex-direction: column;
+  position:absolute;
+  bottom:0px;
+  width:300px;
+  margin-left:60px;
+  margin-bottom: var(--fdr-margin-m);
+ gap:var(--fdr-gap-s)
+}
+
+.red-tentation > div > h5 {
+  color: var(--fdr-color-000);
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+}
+.red-tentation > div > p {
+  color: var(--fdr-color-000);
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 100;
+  font-size: 11px;
+  width:230px;
+}
+
+
+
 
 
 @media (max-width:1288px) {
@@ -657,6 +686,14 @@ ul {
     padding:10px 10px;
     background-color: var(--fdr-color-000);
   }
+
+  .red-tentation {
+    background-image:url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1725005973/mercedes_cfsmuo.png) ;
+    background-position-x: -80px;
+    background-size:cover;
+    height:500px;
+    max-width: 650px;
+  }
 }
 
 @media (max-width: 730px) {
@@ -803,6 +840,44 @@ ul {
     border-radius: 25px;
     padding:10px 10px;
     background-color: var(--fdr-color-000);
+  }
+
+  .red-tentation {
+    background-image:url(https://res.cloudinary.com/dy45x7mjl/image/upload/v1725005973/mercedes_cfsmuo.png) ;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    background-size: 320px;
+    height:290px;
+    width: 320px;
+  }
+
+  .red-tentation > div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    bottom:0px;
+    width:320px;
+    margin-left:0px;
+    margin-bottom: var(--fdr-margin-m);
+    gap:var(--fdr-gap-s);
+    background-color: var(--fdr-color-100);
+  }
+  
+  .red-tentation > div > h5 {
+    color: var(--fdr-color-500);
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top:var(--fdr-margin-m)
+  }
+  .red-tentation > div > p {
+    color: var(--fdr-color-500);
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+    width:250px;
+    margin-bottom:var(--fdr-margin-m)
   }
 }
 
