@@ -584,12 +584,12 @@ ul {
   display:none;
 }
 
-#contact-now  {
+.contact-now  {
   margin:auto;
   max-width:855px;
 }
 
-#contact-now > div {
+.contact-now > div {
   background-color: var(--fdr-color-300) ;
   display:flex;
   justify-content: space-around;
@@ -599,7 +599,7 @@ ul {
   
 }
 
-#contact-now > div > p {
+.contact-now > div > p {
   width:430px;
   color: var(--fdr-color-000);
   font-family: 'ABeeZee', sans-serif;
@@ -607,7 +607,7 @@ ul {
   font-size: 12px;
 }
 
-#contact-now > div > a {
+.contact-now > div > a {
   font-size: 12px;
   font-family: 'ABeeZee', sans-serif;
   font-weight: 100;
@@ -716,7 +716,7 @@ footer > div:nth-child(2) > ul > li > a {
   transition: 0.3s;
 }
 
-#contact-now > div > a:hover {
+.contact-now > div > a:hover {
   background-color: rgb(124, 124, 124);
   color: var(--fdr-color-000);
   transition: 0.3s;
@@ -937,7 +937,7 @@ footer > div:nth-child(2) > ul > li > a:hover {
   
   }
 
-  #contact-now > div  {
+  .contact-now > div  {
     margin:auto;
     width:650px;
   }
@@ -1191,7 +1191,7 @@ footer > div:nth-child(2) > ul > li > a:hover {
     margin-bottom: var(--fdr-margin-s);
   }
 
-  #contact-now > div  {
+  .contact-now > div  {
     margin:auto;
     width:320px;
     flex-direction: column;
@@ -1203,7 +1203,7 @@ footer > div:nth-child(2) > ul > li > a:hover {
   }
 
   
-  #contact-now > div > p {
+  .contact-now > div > p {
     width:280px;
     color: var(--fdr-color-000);
     font-family: 'ABeeZee', sans-serif;
@@ -1212,7 +1212,7 @@ footer > div:nth-child(2) > ul > li > a:hover {
     text-align: center;
   }
   
-  #contact-now > div > a {
+  .contact-now > div > a {
     font-size: 12px;
     font-family: 'ABeeZee', sans-serif;
     font-weight: 100;
