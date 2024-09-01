@@ -17,7 +17,7 @@ Tabla de Contenidos:
 
 1 .Clona el repositorio:
 
-git clone https://github.com/fernandodapia/nombre-del-proyecto.git
+gh repo clone FernandoDapia/Proyecto-1
 
 2. Navega al directorio del proyecto:
 
