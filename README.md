@@ -6,25 +6,12 @@ El diseño de la aplicación se creó a partir de un prototipo proporcionado en 
 
 Tabla de Contenidos:
 
-1. Instalación
-2. Uso
-3. Estructura del Proyecto
-4. Tecnologías Utilizadas
+1. Uso
+2. Funcionalidades Clave
+3. Tecnologías Utilizadas
+4. Enlace directo a Netlify
 5. Contribución
 6. Licencia
-7. Instalación
-8. Para clonar y ejecutar este proyecto en tu máquina local, sigue los siguientes pasos:
-
-1 .Clona el repositorio:
-
-git clone https://github.com/fernandodapia/nombre-del-proyecto.git
-
-2. Navega al directorio del proyecto:
-
-cd nombre-del-proyecto
-
-3. Abre el archivo index.html en tu navegador preferido.
-
 
 Uso:
 
@@ -45,6 +32,9 @@ HTML5: Para la estructura del contenido y la semántica del sitio web.
 CSS3: Para el diseño visual, incluyendo diseño responsivo y animaciones.
 Contribución
 
+Enlace directo a Netlify:
+
+https://proyecto-1-rockthecode.netlify.app/
 
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
